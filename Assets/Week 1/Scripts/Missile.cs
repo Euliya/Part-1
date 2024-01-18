@@ -31,4 +31,9 @@ public class Missile : MonoBehaviour
         Debug.Log("Missle hit something");
         Destroy(gameObject);
     }
+    private void OnTriggerEnter2D(Collider2D collisim)
+    {
+        Debug.Log("trigger something");
+    }
 }
+ 
